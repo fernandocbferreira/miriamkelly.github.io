@@ -1,0 +1,81 @@
+* {
+    margin:0%;
+    padding: 0%;
+}
+
+
+html, body{
+    height: 100%;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(203,138,56);
+    background: linear-gradient(180deg, rgba(203,138,56,1) 0%, rgba(124,53,19,1) 100%);
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+    text-align: center;
+}
+h3{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px 0;
+
+}
+
+.social img{
+    width: 33px;
+}
+.links{
+    list-style: none;
+    text-decoration: none;
+}
+
+.links li a {
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px white;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.links li a span{
+    display: block;
+    color: gray;
+    text-align: center;
+
+}
